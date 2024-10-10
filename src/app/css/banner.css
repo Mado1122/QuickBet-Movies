@@ -1,0 +1,58 @@
+.BannerPrincipal{
+height: 18em;
+background: url("https://m.media-amazon.com/images/S/pv-target-images/d775fb8599018935d1e28ed9cbc2fb67870d726d850f0eee13dc6f50f37b76d3.jpg");
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.DetallesPeli{
+    display: inline-block;
+    width: 80%;
+    margin-top: 8em;
+    color: white;
+    margin-left: 4em;
+}
+
+.OpcionesPeli{
+    display: inline-block;
+    width: 12em;
+}
+
+/* Estilos responsive */
+@media screen and (max-width: 768px) {
+    .DetallesPeli{
+        display: inline-block;
+        width: 80%;
+        margin-top: 8em;
+        color: white;
+        margin-left: 4em;
+        font-size: xx-small;
+    }
+    
+    .OpcionesPeli{
+        display: inline-block;
+        width: 12em;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .DetallesPeli{
+        display: inline-block;
+        width: 80%;
+        margin-top: 8em;
+        color: white;
+        margin-left: 4em;
+        font-size: xx-small;
+    }
+    
+    .OpcionesPeli{
+        display: inline-block;
+        width: 12em;
+        font-size: medium;
+    }
+}
+
+

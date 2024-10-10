@@ -1,0 +1,76 @@
+.Filtros {
+    background-color: #2b2b2b;
+    padding: 20px;
+    width: 20%;
+    height: 520vh;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Busqueda{
+    margin-bottom: 20px;
+  }
+  
+  .Busqueda label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .ContenedorBusqueda {
+    display: flex;
+    align-items: center;
+    border: 1px solid #555;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  .ContenedorBusqueda input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .ContenedorBusqueda button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .generos-listaDesplegable {
+    margin-top: 20px;
+  }
+  
+  .generos-listaDesplegable label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .generos-listaDesplegable select {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .generos-listaDesplegable select option {
+    background-color: #2b2b2b;
+    color: white;
+  }
+
+
+  /* Estilos responsive */
+@media screen and (max-width: 768px) {
+  
+}
